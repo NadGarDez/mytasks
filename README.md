@@ -6,7 +6,7 @@
 
 <p>En la ruta panel se nos muestra el crud, en el cual veremos dos secciones principales [“tareas”, y “tareas completadas”] . Haciendo click sobre cada seccion se podrá acceder a cada tipo de tarea respectivamente. Desde la sección “Tareas” se pueden agragar nuevas tareas, editarlas, culminarlas, y eliminarlas. Desde la seccion "Tareas" terminadas solo se pueden eliminar.</p>
 
-<p>Para iniciar el test ingresamos “npm run cypress:open” ; una vez abierto podremos apreciar tres archivos .test.js , dos de ellos dedicados al End2End testing y uno de ellos dedicados al Unit testing. Los test tienen nombres descriptivos para una mayor comprensión del mismo. Es importante aclarar que existe una limitante de uso por parte del api de 8base en cuanto a la cantidad de peticiones por unidad de tiempo, se recomienda esperar unos minutos y recargar la pagina o test para obtener el comportamiento correcto.</p>
+<p>Para iniciar el test ingresamos “npm run cypress:open” ; una vez abierto podremos apreciar tres archivos .test.js , dos de ellos dedicados al End2End testing y uno de ellos dedicados al Unit testing. Los test tienen nombres descriptivos para una mayor comprensión del mismo. Es importante aclarar que existe una limitante de uso por parte del api de 8base en cuanto a la cantidad de peticiones por unidad de tiempo, se recomienda esperar unos minutos y recargar la pagina o test para obtener el comportamiento esperado.</p>
 
 <p>En el proyecto tenemos cuatro directorios importantes [“pages”, “components”,”styles”,”db”,”cypress”] cada uno con una función general determinada.</p>
 
