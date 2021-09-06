@@ -1,0 +1,25 @@
+@fontface {
+  font-family: 'Open Sans', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.mediumSize {
+  font-size: 20px;
+}
+
+.mediumSize2 {
+  font-size: 30px;
+}
+
+.bigSize {
+  font-size: 40px;
+}
+
+.smallSize {
+  font-size: 10px;
+}

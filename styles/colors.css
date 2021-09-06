@@ -1,0 +1,48 @@
+
+.textPrincipal {
+  color: #1976d2;
+}
+
+.textSecond {
+  color: #c5bef4;
+}
+.textBlack {
+  color: #2D2D2F;
+}
+.textGray {
+  color: #666666;
+}
+
+.textSky {
+  color:#2D2D2F
+}
+
+.backgroundPrincipal {
+  background-color: #8879F6;
+}
+
+.backgroundSecond {
+  background-color: #c5bef4;
+}
+.backgroundBlack {
+  background-color: #2D2D2F;
+}
+.backgroundGray {
+  background-color: #666666;
+}
+
+.backgroundSky {
+  background-color: #caeafb;
+}
+
+.customWhite {
+  color:#F4F4F4
+}
+
+.whiteBackground {
+  background-color: #F4F4F4;
+}
+
+.footerGradient {
+  background-image: linear-gradient(grey, black);
+}

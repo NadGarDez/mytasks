@@ -1,34 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2>My Task</h2>
 
-## Getting Started
+<p>Esta pequeña aplicación web es tiene como fin el ejecutar un tasklist apoyándose sobre los framework REACT Nextjs en conexión con los servicios configurados en la plataforma 8base.com. Para iniciar el proyecto una vez descargado solo se debe insertar el comando “npm install ” en la consola, terminal, o cmd y esperar la instalarcion de todas las dependencias. Una vez culminado el paso anterior se insertamos el comando “npm run dev” para iniciar el servidor local. Con ayuda de un navegador accedemos hasta la ruta “http://localhost:3000/” para llar al index de la aplicación web.</p>
 
-First, run the development server:
+<p>A rasgos generales contamos con tres rutas: [ “/”, “/login”, “/panel”] , la primera cumple la función de saludo, la segunda un login (que no esta activo) , y la tercera donde reside la funcionalidad del tasklist. Para pasar al panel se puede ir directamente a la ruta “/panel” o presionando el botón empezar en la ruta “/”.</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<p>En la ruta panel se nos muestra el crud, en el cual veremos dos secciones principales [“tareas”, y “tareas completadas”] . Presionando sobre esas secciones se podrá acceder a cada tipo de tarea respectivamente. Desde la sección de la de “Tareas” se pueden agragar nuevas tareas, editarlas, culminarlas, y eliminarlas. Desde la seccion tareas terminadas solo se pueden eliminar.</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p>Para iniciar el test ingresamos “npm run cypress:open” ; una vez abierto podremos apreciar tres archivos .test.js , dos de ellos dedicados al End2End testing y uno de ellos dedicados al Unit testing. Los test tienen nombres descriptivos para una mayor comprensión del mismo. Es importante aclarar que existe una limitante de uso por parte del api de 8base en cuanto a la cantidad de peticiones por unidad de tiempo, se recomienda esperar unos minutos y recargar la pagina o test para obtener el comportamiento correcto.</p>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<p>En el proyecto tenemos cuatro directorios importantes [“pages”, “components”,”styles”,”db”,”cypress”] cada uno con una función general determinada.</p>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+    • Pages : aquí estan los componentes base de cada dirección de la url. Desde aquí se llaman funciones y componentes complementarios
+    • Components: son componentes sin estado que sirven de apoyo al renderizado en las paginas
+    • Styles: archivos con ojas de estilos que se aplican en toda la web
+    • db : todos los archivos relacionados a la coneccion con 8base y las operaciones crud
+    • cypress: carpeta auto generada por cypress para la gestión de los test
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p>Gracias de antemano a los lectores y de corazon espero que este proyecto les resulte de gran utilidad :)</p>

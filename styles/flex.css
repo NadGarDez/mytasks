@@ -1,0 +1,40 @@
+
+
+     .Row {
+       display: flex ;
+       flex-direction: row ;
+     }
+     .RowReverse {
+       display: flex ;
+       flex-direction: row-reverse ;
+     }
+
+     .Wrap {
+       flexWrap: wrap ;
+     }
+
+     .Column {
+       display: flex ;
+       flex-direction: column ;
+     }
+     .ColumnReverse {
+       display: flex ;
+       flex-direction: column-reverse ;
+     }
+
+     .PerfectCenter {
+       display: flex ;
+       justify-content: center ;
+       align-items: center ;
+     }
+
+     .HorizontalCenter {
+       display: flex ;
+       justify-content: center ;
+     }
+     .VerticalCenter {
+
+       display: flex ;
+      align-items: center ;
+
+     }
